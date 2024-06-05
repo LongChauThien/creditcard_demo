@@ -20,7 +20,7 @@ services:
   
  
   django:
-    image: longchauthien03/creditcard-web:v2.0
+    image: longchauthien03/creditcard-web:v3.0
     container_name: creditcard_django
     ports:
       - "8000:8000"
